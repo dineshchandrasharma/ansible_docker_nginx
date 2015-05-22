@@ -1,0 +1,13 @@
+---
+# file common/tasks/main.yml
+
+#- name: run apt-get update
+#  apt: update_cache=yes
+#  sudo: yes
+- name: installing pip chandamnnnm
+  apt: name="python-pip" state=present
+  sudo: yes
+- name: installing do000000cker-py
+  pip: name="docker-py" state=present version=1.0.0
+  sudo: yes
+
